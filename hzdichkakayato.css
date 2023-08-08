@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Irish+Grover&family=Roboto&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Aoboshi One', serif;
+	font-family: 'Irish Grover', cursive;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper{
+	width: 1280px;
+	height: 4650px;
+	border: 2px solid;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 120px;
+
+	position: relative;
+
+}
+
+.menu{
+
+	margin-top: 24px;
+	margin-left: 40px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	font-size: 18px;
+	width: 46px;
+	padding: 4px 5px;
+	transition: width 2s;
+}
+.menu:hover {
+	width: 5px;
+}
+.icons{
+
+	position: absolute;
+	top: 24px;
+	right: 40px;
+}
+.icons img {
+		padding-left: 32px;
+}
+
+
+/**/
+
+.ok{
+	margin-left: 40px;
+	position: relative;
+}
+.text {
+	position: absolute;
+	top: 24px;
+	left: 37px;
+	font-size: 88px;
+	font-family: Irish Grover;
+}
+.button{
+	height: 72px;
+	width: 232px;
+	border-radius: 1px;
+	margin-left: 886px; 
+}
+.buttontext{
+	font-family: Roboto;
+	position: absolute;
+	top: 459px;
+	left: 927px;
+	padding: 27px 41px;
+	border: 1px solid;
+	border-radius: 50%;
+}
+.block{
+	display: flex;
+}
+.image1 {
+	margin-left: 72px;
+	margin-top: 144px;
+	width: 368px;
+	height: 498px;
+}
+
+.text1{
+	margin-left: 152px;
+	margin-top: 245px;
+}
+.text1 h1{
+	text-align: center;
+	font-family: Irish Grover;
+}
+.icons2{
+	margin-left: 40px;
+	margin-top: 297px; 
+}
+.text1 p{
+	width: 576px;
+	height: 192px;
+}
+.hobby1{
+	margin-left: 40px;
+	margin-top: 136px;
+	width: 1200px;
+	height: 400px;
+	display: flex;
+}
+.hobbytext1 h1{
+	font-family: Irish Grover;
+	font-size: 40px;
+}
+.hobbytext1 p{
+	font-size: 18px;
+	width: 472px;
+	height: 192px; 
+}
+.imageprgm{
+	width: 680px;
+	height: 400px;
+	margin-left: 48px;
+}
+.hobby2{
+	margin-left: 40px;
+	margin-top: 80px;
+	width: 1200px;
+	height: 400px;
+	display: flex;
+
+}
+.hobbytext2 h1{
+	font-family: Irish Grover;
+	width: 232px;
+	height: 80px;
+	margin-left: 240px;
+}
+.hobbytext2 p{
+	font-size: 18px;
+	width: 472px;
+}
+.hobbytext2{
+	margin-left: 44px;
+}
+.hobby3{
+	margin-left: 40px;
+	margin-top: 80px;
+	width: 1200px;
+	height: 400px;
+	display: flex;
+}
+.hobbytext3 h1{
+	font-family: Irish Grover;
+	font-size: 40px;
+}
+.hobbytext3 p{
+	font-size: 18px;
+	width: 472px;
+	height: 192px;
+}
+.imagegames{
+	width: 680px;
+	height: 400px;
+	margin-left: 48px;
+}
+.cytata{
+	width: 1280px;
+	height: 360px;
+	margin-top: 136px;
+	position: relative;
+}
+.cytatatext{
+	font-size: 48px;
+	position: absolute;
+	top: 156px;
+	left: 8.5%;
+	color: #FFF5F5;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 48px;
+}
+.aboutmeblock1{
+	width: 784px;
+	height: 694px;	
+	margin-left: 248px;
+	margin-top: 136px
+}
+.textmyfamily{
+	width: 784px;
+	height: 262px;
+	margin-top: 24px;
+}
+.textmyfamily h1{
+	font-family: Irish Grover;
+	font-size: 40px;
+	margin-left: 302.5px;
+}
+.textmyfamily p{
+	font-size: 18px;
+	font-family: Roboto;
+}
+.container_slider {
+	margin-top:136px ;
+    margin-left: 248px; /*відцентровуємо*/
+    width: 784px; /*ширина*/
+    height: 690px; /*висота*/
+    position: relative;
+    overflow: hidden;
+}
+.photo_slider {
+  position: absolute;
+  animation: round 100s infinite;
+  opacity: 0;
+}
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+.photo_slider:nth-child(3) {
+  animation-delay: 50s;
+}
+.photo_slider:nth-child(2) {
+  animation-delay: 25s;
+}
+.photo_slider:nth-child(1) {
+  animation-delay: 0s;
+}
+.photo_slider p{
+	font-family: roboto;
+}
+.photo_slider h1{
+	text-align: center;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	font-family: Irish Grover;
+}
+.footer{
+	margin-top: 136px;
+	width: 1280px;
+	height: 226px;
+	margin-left: 217px;
+	display: flex;
+}
+.footer a {
+	text-decoration: none;
+	font-size: 24px;
+	font-family: Roboto;
+	margin-left: 25px;
+}
+.icons3{
+	position:relative ;
+	bottom: 50px;
+	left: 144px;
+
+}
+.line342{
+	width: 1280px;
+	height: 0px;
+	border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
